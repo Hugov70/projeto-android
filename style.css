@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(pacote/fontes/idroid.otf);
+}
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+    padding: 0px;
+}
+h1#cab {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+p#frasemarca {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+nav > a {font-family: Arial, Helvetica, sans-serif;
+color: white;
+font-size: 12px;
+padding-left: 12px;
+padding-right: 12px;
+text-decoration: none;
+
+}
+nav > a:hover {
+    background-color: #092014 ;
+    width: 400px;
+    padding: 10px;
+}
+header {
+    margin: 0;
+    background-image: linear-gradient(to top, #124127, #3CD681);
+    padding: 10px;
+    
+}
+main {
+    background-color: white;
+    color: black;
+    max-width: 800px;
+    margin: auto;
+    padding: 5px 10px;
+    
+}
+h1.titulos {
+    color:#124127 ;
+    font-family: 'idroid';
+    font-size: 2em;
+} 
+h2.titulos {
+    color:#124127 ;
+    font-family: 'idroid';
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, #a3c4b1, #C4EBD5);
+}
+p.centro {
+    text-align: center;
+}
+#video {
+    background-color: #1A5C38;
+    padding: 5px 10px;
+    margin: auto;
+}
+article#mais {
+    background-color: #C5EBD6;
+    margin: 15px 0px 0px 0px;
+    
+    
+}
+#pmais {
+    background-color: #2FA866;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+article#mais > p {
+    padding: 10px;
+}
+div {
+    display: inline-block;
+    margin-right: 150px;
+}
+article#mais > p > a {
+    color: #599071;
+    text-decoration: none;
+    
+}
+footer {
+    background-color: #1A5C38;
+    padding: 2px;
+    margin-top: 15px;
+    
+}
+footer > p {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+span {
+    background-color:#a3c4b1 ;
+    padding: 2px;
+}
+span > a {
+    text-decoration: none;
+    color: black;
+    
+}
+span > a:hover {
+    text-decoration: underline;
+    
+}
+span > a::after {
+    content: '🔗';
+}
+abbr {
+    text-decoration: none;
+}
