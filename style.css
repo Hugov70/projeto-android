@@ -50,7 +50,9 @@ main {
     padding: 5px 10px;
     
 }
-
+main img {
+    width: 100%;
+}
 h1.titulos {
     color:#124127 ;
     font-family: 'idroid';
